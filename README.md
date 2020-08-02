@@ -31,10 +31,13 @@ This is an opinionated and basic environment that should be ready to expand upon
 - [C# XML Documentation Comments](https://marketplace.visualstudio.com/items?itemName=k--kato.docomment&WT.mc_id=devkimchicom-github-juyoo): Included for XML style C# code documentation.
 - [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack&WT.mc_id=devkimchicom-github-juyoo): Included to add/update documents on [docs.microsoft.com](https://docs.microsoft.com?WT.mc_id=devkimchicom-github-juyoo)
 - [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig&WT.mc_id=devkimchicom-github-juyoo): Included for .NET Core code formatting.
+- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph&WT.mc_id=devkimchicom-github-juyoo): View a Git Graph of your repository, and perform Git actions from the graph.
+- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory&WT.mc_id=devkimchicom-github-juyoo): View git log, file history, compare branches or commits
 - [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=github.vscode-pull-request-github&WT.mc_id=devkimchicom-github-juyoo): Integration with GitHub's Pull Requests and Issues features that significantly enhance the experience of working in a repo hosted on GitHub.
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens&WT.mc_id=devkimchicom-github-juyoo): An extension that significantly enhances the experience using Git in a development environment.
 - [IntelliCode](https://marketplace.visualstudio.com/items?itemName=visualstudioexptteam.vscodeintellicode&WT.mc_id=devkimchicom-github-juyoo): AI-assisted development for multiple languages including JavaScript and TypeScript.
 - [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare&WT.mc_id=devkimchicom-github-juyoo): collaborative, multi-user remote editing from directly within the editor.
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one&WT.mc_id=devkimchicom-github-juyoo): All you need to write Markdown.
 - [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell&WT.mc_id=devkimchicom-github-juyoo): This extension provides rich PowerShell language support.
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons&WT.mc_id=devkimchicom-github-juyoo): An enhancement to the editor UI that gives more visual indicators in the explorer.
 
