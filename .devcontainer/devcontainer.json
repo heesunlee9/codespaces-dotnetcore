@@ -1,10 +1,18 @@
 {
-    "name": "Codespaces Node.js Starter",
+    "name": "Codespaces .NET Core Starter",
     "extensions": [
         "coenraads.bracket-pair-colorizer-2",
+        "docsmsft.docs-authoring-pack",
         "eamodio.gitlens",
+        "editorconfig.editorconfig",
         "github.vscode-pull-request-github",
-        "ms-azuretools.vscode-docker",
+        "jongrant.csharpsortusings",
+        "k--kato.docomment",
+        "kreativ-software.csharpextensions",
+        "ms-dotnettools.csharp",
+        "ms-vscode.js-debug-nightly",
+        "ms-vscode.powershell",
+        "ms-vscode.vscode-node-azure-pack",
         "ms-vsliveshare.vsliveshare",
         "vscode-icons-team.vscode-icons",
         "visualstudioexptteam.vscodeintellicode"

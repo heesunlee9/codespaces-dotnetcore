@@ -1,4 +1,4 @@
-## update and install some things we should probably have
+## Update and install some things we should probably have
 apt-get update
 apt-get install -y \
   curl \
@@ -8,7 +8,16 @@ apt-get install -y \
   sudo \
   zsh
 
-## setup and install oh-my-zsh
+## Instsall nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+
+## Install PowerShell Core
+# curl -sSL https://raw.githubusercontent.com/PowerShell/PowerShell/master/tools/install-powershell.sh | bash -s
+
+## Install .NET Core SDK
+# curl -sSL https://dotnet.microsoft.com/download/dotnet-core/scripts/v1/dotnet-install.sh | bash /dev/stdin
+
+## Setup and install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 cp -R /root/.oh-my-zsh /home/$USERNAME
 cp /root/.zshrc /home/$USERNAME

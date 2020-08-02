@@ -1,10 +1,15 @@
-# Codespaces Base Starter
+# Codespaces .NET Core Starter
 
-This project is a generic starter for developers to use in Codespaces that includes basic system tools and extensions.
+This project is a .NET Core starter for developers to use in Codespaces that includes basic system tools and extensions for .NET Core app development.
 
 ## What's Included
 
-This is an unopinionated, basic environment that should be ready to expand upon to build a day-to-day development envrionment. It comes with the following software choices:
+This is an opinionated and basic environment that should be ready to expand upon to build a day-to-day development envrionment. It comes with the following software choices:
+
+### SDK ###
+
+- [.NET Core SDK 3.1 LTS](https://dotnet.microsoft.com/download/dotnet-core/3.1?WT.mc_id=devkimchicom-github-juyoo): A free, cross-platform and open source developer platform for building all types of apps.
+- [PowerShell 7](https://docs.microsoft.com/powershell/scripting/how-to-use-docs?view=powershell-7&WT.mc_id=devkimchicom-github-juyoo): PowerShell is a cross-platform task automation and configuration management framework, consisting of a command-line shell and scripting language.
 
 ### System Tools
 
@@ -18,13 +23,21 @@ This is an unopinionated, basic environment that should be ready to expand upon 
 
 ### VS Code Extensions
 
-- [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2): An extension colors matching brackets appropraitely to enhance code readability.
-- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker): Included for Node.js developers who work with Docker, but also to enable users to edit `.devcontainer/Dockerfile` with proper editing.
-- [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=github.vscode-pull-request-github): Integration with GitHub's Pull Requests and Issues features that significantly enhance the experience of working in a repo hosted on GitHub.
-- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): An extension that significantly enhances the experience using Git in a development environment.
-- [IntelliCode](https://marketplace.visualstudio.com/items?itemName=visualstudioexptteam.vscodeintellicode): AI-assisted development for multiple langauges including JavaScript and TypeScript.
-- [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare): collaborative, multi-user remote editing from directly within the editor.
-- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): An enhancement to the editor UI that gives more visual indicators in the explorer.
+- [Azure Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack&WT.mc_id=devkimchicom-github-juyoo): Provided through a rich set of extensions that make it easy to discover and interact with the cloud services that power your applications.
+- [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2&WT.mc_id=devkimchicom-github-juyoo): An extension colors matching brackets appropriately to enhance code readability.
+- [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp&WT.mc_id=devkimchicom-github-juyoo): Included for C# development.
+- [C# Extensions](https://marketplace.visualstudio.com/items?itemName=kreativ-software.csharpextensions&WT.mc_id=devkimchicom-github-juyoo): Included to speed up development workflows.
+- [C# Sort Usings](https://marketplace.visualstudio.com/items?itemName=jongrant.csharpsortusings&WT.mc_id=devkimchicom-github-juyoo): Included for document formatting.
+- [C# XML Documentation Comments](https://marketplace.visualstudio.com/items?itemName=k--kato.docomment&WT.mc_id=devkimchicom-github-juyoo): Included for XML style C# code documentation.
+- [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack&WT.mc_id=devkimchicom-github-juyoo): Included to add/update documents on [docs.microsoft.com](https://docs.microsoft.com?WT.mc_id=devkimchicom-github-juyoo)
+- [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig&WT.mc_id=devkimchicom-github-juyoo): Included for .NET Core code formatting.
+- [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=github.vscode-pull-request-github&WT.mc_id=devkimchicom-github-juyoo): Integration with GitHub's Pull Requests and Issues features that significantly enhance the experience of working in a repo hosted on GitHub.
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens&WT.mc_id=devkimchicom-github-juyoo): An extension that significantly enhances the experience using Git in a development environment.
+- [IntelliCode](https://marketplace.visualstudio.com/items?itemName=visualstudioexptteam.vscodeintellicode&WT.mc_id=devkimchicom-github-juyoo): AI-assisted development for multiple languages including JavaScript and TypeScript.
+- [JavaScript Debugger (Nightly)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-debug-nightly&WT.mc_id=devkimchicom-github-juyoo): The new, upcoming JavaScript debugger for VS Code. It's particularly useful when ASP.NET Core and/or Blazor Web Assembly application is being built.
+- [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare&WT.mc_id=devkimchicom-github-juyoo): collaborative, multi-user remote editing from directly within the editor.
+- [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell&WT.mc_id=devkimchicom-github-juyoo): This extension provides rich PowerShell language support.
+- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons&WT.mc_id=devkimchicom-github-juyoo): An enhancement to the editor UI that gives more visual indicators in the explorer.
 
 ### Operating System
 
@@ -34,11 +47,11 @@ This is an unopinionated, basic environment that should be ready to expand upon 
 
 ### In VS Codespaces
 
-#### Inital Creation
+#### Initial Creation
 
-For usage in VS Codespaces, you're going to want to head over to [online.visualstudio.com](https://online.visualstudio.com) and sign up for VS Codespaces (that process is outside the scope of these instructions). Once you've got an account and are signed in to [online.visualstudio.com](https://online.visualstudio.com), you're going to take the following steps:
+For usage in VS Codespaces, you're going to want to head over to [online.visualstudio.com](https://online.visualstudio.com?WT.mc_id=devkimchicom-github-juyoo) and sign up for VS Codespaces (that process is outside the scope of these instructions). Once you've got an account and are signed in to [online.visualstudio.com](https://online.visualstudio.com?WT.mc_id=devkimchicom-github-juyoo), you're going to take the following steps:
 
-- Ensure you're on the `/environments` page at [online.visualstudio.com/environments](https://online.visualstudio.comenvironments)
+- Ensure you're on the `/environments` page at [online.visualstudio.com/environments](https://online.visualstudio.com/environments?WT.mc_id=devkimchicom-github-juyoo)
 - In the top right corner, there'll be a "Create environment" button. Click this button, which will open up a panel from the right side of the screen. Fill in the details of this panel:
   - **Environment Name:** This will be the visible name of your environment within Codespaces. The value here doesn't particularly matter - I'm going to use `tinycloud`.
   - **Git Repository:** This is going to be either the URL you'd `git clone` the repo from or the GitHub `<org OR user>/<repo>` shorthand. For this repo, the easier value would be `codespaces-examples/base`.
@@ -52,15 +65,15 @@ For usage in VS Codespaces, you're going to want to head over to [online.visuals
 
 #### Connecting to your Environment
 
-Once you've completed the Creation steps, your environment will be usable from Codespaces until you delete it. You can access it by going to [online.visualstudio.com](https://online.visualstudio.com) and selecting the vertical elipsis menu to connect to it from the browser or launch it in VS Code / VS Code Insiders.
+Once you've completed the Creation steps, your environment will be usable from Codespaces until you delete it. You can access it by going to [online.visualstudio.com](https://online.visualstudio.com?WT.mc_id=devkimchicom-github-juyoo) and selecting the vertical elipsis menu to connect to it from the browser or launch it in VS Code / VS Code Insiders.
 
 When inside of the environment you can change envrionments themselves from the command pallete with the `Codespaces: Connect`.
 
-> **Note:** See the [VS Online in the Browser](https://docs.microsoft.com/en-us/visualstudio/online/quickstarts/browser) quickstart for more information.
+> **Note:** See the [VS Online in the Browser](https://docs.microsoft.com/visualstudio/online/quickstarts/browser?WT.mc_id=devkimchicom-github-juyoo) quickstart for more information.
 
-Additionally, if you've installedthe [Visual Studio Codespaces](https://marketplace.visualstudio.com/items?itemName=ms-vsonline.vsonline) extension in VS Code locally, you'll be able to directly connect from VS Code itself.
+Additionally, if you've installed the [Visual Studio Codespaces](https://marketplace.visualstudio.com/items?itemName=ms-vsonline.vsonline&WT.mc_id=devkimchicom-github-juyoo) extension in VS Code locally, you'll be able to directly connect from VS Code itself.
 
-> **Note:** See the [VS Online in VS Code](https://docs.microsoft.com/en-us/visualstudio/online/quickstarts/vscode) quickstart for more information.
+> **Note:** See the [VS Online in VS Code](https://docs.microsoft.com/visualstudio/online/quickstarts/vscode?WT.mc_id=devkimchicom-github-juyoo) quickstart for more information.
 
 #### Working
 
@@ -68,4 +81,4 @@ Now that you're set up and connected, you should be able to work within your Cod
 
 ## Contributing
 
-Contributions are welcome. Please refrain from opinionated additions like linters. However, adding package managers and other DX improvements that are additive like `yarn` are welcome. Contributors must follow the [Code of Conduct](./CODE_OF_CONDUCT.md).
+Contributions are welcome. Opinionated additions are welcome. Contributors must follow the [Code of Conduct](./CODE_OF_CONDUCT.md).
