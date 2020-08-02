@@ -1,27 +1,27 @@
 {
-    "name": "Codespaces .NET Core Starter",
-    "extensions": [
-        "coenraads.bracket-pair-colorizer-2",
-        "docsmsft.docs-authoring-pack",
-        "eamodio.gitlens",
-        "editorconfig.editorconfig",
-        "github.vscode-pull-request-github",
-        "jongrant.csharpsortusings",
-        "k--kato.docomment",
-        "kreativ-software.csharpextensions",
-        "ms-dotnettools.csharp",
-        "ms-vscode.powershell",
-        "ms-vscode.vscode-node-azure-pack",
-        "ms-vsliveshare.vsliveshare",
-        "vscode-icons-team.vscode-icons",
-        "visualstudioexptteam.vscodeintellicode"
-    ],
-    "dockerFile": "Dockerfile",
-    "settings": {
-        "terminal.integrated.shell.linux": "/usr/bin/zsh",
-        "files.exclude": {
-            "**/CODE_OF_CONDUCT.md": true,
-            "**/LICENSE": true
-        }
+  "name": "Codespaces .NET Core Starter",
+  "extensions": [
+    "coenraads.bracket-pair-colorizer-2",
+    "docsmsft.docs-authoring-pack",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "github.vscode-pull-request-github",
+    "jongrant.csharpsortusings",
+    "k--kato.docomment",
+    "kreativ-software.csharpextensions",
+    "ms-dotnettools.csharp",
+    "ms-vscode.powershell",
+    "ms-vscode.vscode-node-azure-pack",
+    "ms-vsliveshare.vsliveshare",
+    "vscode-icons-team.vscode-icons",
+    "visualstudioexptteam.vscodeintellicode"
+  ],
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "terminal.integrated.shell.linux": "/usr/bin/zsh",
+    "files.exclude": {
+      "**/CODE_OF_CONDUCT.md": true,
+      "**/LICENSE": true
     }
+  }
 }
