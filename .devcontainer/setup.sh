@@ -12,7 +12,7 @@ apt-get install -y \
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
 ## Install PowerShell Core
-# curl -sSL https://raw.githubusercontent.com/PowerShell/PowerShell/master/tools/install-powershell.sh | bash -s
+curl -sSL https://raw.githubusercontent.com/PowerShell/PowerShell/master/tools/install-powershell.sh | bash
 
 ## Install .NET Core SDK
 # curl -sSL https://dotnet.microsoft.com/download/dotnet-core/scripts/v1/dotnet-install.sh | bash /dev/stdin
